@@ -29,7 +29,6 @@ Count React components in your codebase with **optimized time complexity O(f/p Ã
 - [Examples](#-example-output)
 - [Technical Details](#-technical-details)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ## âœ¨ Key Features
 
