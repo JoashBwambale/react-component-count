@@ -1,0 +1,42 @@
+{
+  "name": "react-component-count",
+  "version": "1.0.0",
+  "description": "Optimized script to count React components in a project",
+  "main": "dist/count-components.js",
+  "type": "module",
+  "bin": {
+    "count-components": "./dist/count-components.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm count-components.ts",
+    "count": "tsx count-components.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "counter",
+    "analysis",
+    "cli"
+  ],
+  "author": {
+    "name": "Imamuzzaki Abu Salam",
+    "email": "imamuzzaki@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imbios/react-component-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imbios/react-component-count/issues"
+  },
+  "homepage": "https://github.com/imbios/react-component-count#readme",
+  "packageManager": "pnpm@10.17.0",
+  "devDependencies": {
+    "@types/node": "^22.18.8",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
